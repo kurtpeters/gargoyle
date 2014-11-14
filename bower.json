@@ -1,0 +1,13 @@
+{
+  "name": "gargoyle",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kurtpeters/gargoyle",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
