@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <script src="../src/gargoyle.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var feature = gargoyle('!feature');
+
+        console.log(feature.isEnabled(), ': should be true');
+
+        feature.toggle();
+
+        console.log(feature.isEnabled(), ': should be false');
+
+        feature.set(true);
+
+        console.log(feature.isEnabled(), ': should be true');
+    </script>
+</body>
+</html>
